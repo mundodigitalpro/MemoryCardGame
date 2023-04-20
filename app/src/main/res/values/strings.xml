@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MemoryCardGame</string>
+    <string name="reset_button">Reiniciar</string>
+    <string name="new_game_button">Nuevo</string>
+    <string name="intentos_label">Intentos: %d</string>
+
 </resources>
