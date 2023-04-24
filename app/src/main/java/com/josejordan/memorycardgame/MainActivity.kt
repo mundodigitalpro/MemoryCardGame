@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
             }
             cardPairs.shuffle()
         } else {
-            Toast.makeText(this, "Número de cartas inválido", Toast.LENGTH_SHORT).show()
+           Toast.makeText(this, getString(R.string.number_invalid), Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -175,7 +175,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showVictoryMessage() {
-        Toast.makeText(this, "¡Has ganado!", Toast.LENGTH_LONG).show()
+       Toast.makeText(this, getString(R.string.you_win), Toast.LENGTH_LONG).show()
     }
 
     private fun resetGame() {
@@ -189,7 +189,7 @@ class MainActivity : AppCompatActivity() {
         isProcessing = false
         pairsFound = 0
         attempts = 0
-        attemptCounter.text = "Intentos: $attempts"
+        attemptCounter.text = getString(R.string.intentos_label, attempts)
     }
 
 }

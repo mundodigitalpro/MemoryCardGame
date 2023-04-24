@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">MemoryCardGame</string>
-    <string name="reset_button">Reiniciar</string>
-    <string name="new_game_button">Nuevo</string>
-    <string name="intentos_label">Intentos: %d</string>
+    <string name="reset_button">Restart</string>
+    <string name="new_game_button">New Game</string>
+    <string name="intentos_label">Attempts: %d</string>
+    <string name="attempts_0">Attempts: 0</string>
+    <string name="you_win">You Win!</string>
+    <string name="number_invalid">Number invalid</string>
+    <string name="select_number_cards">Select number of cards</string>
+    <string name="_4_cards_2x2">4 cards (2x2)</string>
+    <string name="_6_cards_3x2">6 cards (3x2)</string>
+    <string name="_16_cards_4x4">16 cards (4x4)</string>
+    <string name="apply">Apply</string>
 
 </resources>
